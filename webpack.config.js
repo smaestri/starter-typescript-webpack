@@ -1,5 +1,5 @@
 module.exports = {
-    entry : './app/old.ts',
+    entry : './app/main.ts',
     debug: true,
     resolve: {
         extensions: ['', '.ts', '.js', '.html']

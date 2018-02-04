@@ -1,4 +1,14 @@
-// import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-// import { AppModule }              from './appModule';
+import { tt } from './toto';
 
-// //platformBrowserDynamic().bootstrapModule(AppModule).catch(err => console.error(err));;
+interface Application{
+  name: string;
+}
+
+class App implements Application {
+
+  constructor(public name: string){
+    tt();
+  }
+
+}
+new App('toto');
